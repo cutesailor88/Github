@@ -13,12 +13,15 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, Beautiful world!")
+            Text("I am an iOS developer")
                 .padding()
+                .font(.title)
+                .foregroundStyle(.blue)
             
             Image(systemName: "carrot")
                 .imageScale(.large)
                 .foregroundStyle(.blue)
+        
             
         }
         .padding()
